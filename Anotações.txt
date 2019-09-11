@@ -1,0 +1,10 @@
+Yarn Init inicia o projeto Yarn
+
+O babel transforma o código ECMA para uma forma em que os navegadores entendam.
+
+O script 
+"scripts": {
+    "dev": "babel ./main.js -o bundle.js -w"
+  }
+
+transfere todo o ecma escrito no main.js para o arquivo bundle.js, atualizando automaticamente
